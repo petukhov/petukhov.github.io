@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World!"
 date:   2015-09-19
-categories: jekyll update
+categories: misc
 ---
 
 This is the first post. I am still learning to use Jekyll and its default template. 
