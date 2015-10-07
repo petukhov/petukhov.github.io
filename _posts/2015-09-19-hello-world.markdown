@@ -6,7 +6,7 @@ categories: misc
 ---
 
 This is the first post. I am still learning to use Jekyll and trying to modify the default template.
-Look how the blog looks like right now! Not bad but not unique enough, also too much visual litter.
+Look how the blog looks like right now!
 
 ![What site looked liked at first]({{ site.url }}/assets/screenshot1.png)
 
