@@ -4,6 +4,17 @@
 @charset "utf-8";
 
 
+// Font variables
+
+$font-name: 'font_name';
+$font-path-file-name: '/assets/AnimalSilence';
+
+// font_name font
+@font-face {
+  font-family: $font-name;
+  src: url($font-path-file-name+'.otf') format('opentype'), /* Pretty Modern Browsers */
+}
+
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
@@ -15,7 +26,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #424242;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);

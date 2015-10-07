@@ -13,6 +13,15 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 178px;
+}
+
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -23,7 +32,10 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-
+/*@font-face {
+    font-family: 'title-font';
+    src: url("assets/AnimalSilence.otf");
+}*/
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
