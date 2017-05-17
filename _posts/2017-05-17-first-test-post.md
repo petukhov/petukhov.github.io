@@ -3,7 +3,7 @@ layout: post
 title: First post, chapter 1, inception
 description: "This is a test post. Let's see if it works."
 modified: 2017-05-17
-tags: [sample post]
+tags: [random]
 ---
 
 This my first post in this blog. 
