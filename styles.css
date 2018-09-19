@@ -1,17 +1,29 @@
+body {
+    background-color: #e6e6e687;
+}
+
 .container {
+    max-width: 100%;
     margin-left: 150px;
+    margin-right: 150px;
     padding-left: 20px;
     border-left: solid 10px #9fcce2;
     font-family: Calibri, "Trebuchet MS", Arial, sans-serif;
+
+    background-color: white;
+    height: 100%;
+    box-shadow: 20px 20px #cccccc;
+    min-height: 85vh;
 }
 
 .header-title {
     position: relative;
-    padding: 10px;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 10px;
     padding-left: 20px;
-    padding-right: 20px;
     margin-right: -20px;
-    text-shadow: 2px 2px #5c7582;
+    text-shadow: 20px 10px #5c7582cc;
     left: -20px;
     background-color: #9fcce2;
     display: inline-block;
@@ -20,7 +32,7 @@
 }
 
 h2, h3, h4 {
-    color: #3c3c3c;
+    color: #37464e;
     font-family: Tahoma, "Trebuchet MS", Arial, sans-serif;
 }
 
@@ -33,12 +45,25 @@ h4 {
     display: inline-block;
 }
 
-ul.posts-list li {
-    margin: 20px 0;
+a {
+    color: #b7444e;
 }
 
-@media only screen and (max-width: 730px) {
+a:hover {
+    color: #dc3240;
+}
+
+ul.posts-list {
+    max-width: 80%;
+}
+ul.posts-list li {
+    margin: 20px 0;
+    list-style: none;
+}
+
+@media only screen and (max-width: 800px) {
     .container {
         margin-left: 0;
+        margin-right: 0;
     }
 }
