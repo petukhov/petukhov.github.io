@@ -80,6 +80,7 @@ article {
 h4.article-title {
     font-size: 25px;
     font-family: sans-serif;
+    text-align: initial;
     color: #b7444e;
 }
 
@@ -103,5 +104,9 @@ h4.article-title {
     article {
         margin-left: 12px;
         margin-right: 31px;
+    }
+    blockquote {
+        margin-inline-start: 15px;
+        margin-inline-end: 15px;
     }
 }
