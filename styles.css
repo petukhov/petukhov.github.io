@@ -85,12 +85,12 @@ h4.article-title {
 
 @media only screen and (max-width: 1350px) {
     .container {
-        width: 765px;
+        width: 720px;
         max-width: none;
     }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 830px) {
     .container {
         width: auto;
         max-width: none;
