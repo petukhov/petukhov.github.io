@@ -77,11 +77,15 @@ article {
     text-align: justify;
 }
 
-h4.article-title {
-    font-size: 25px;
+article h2,
+article h3,
+article h4 {
+    color: #b7444e;
+}
+
+h2.article-title {
     font-family: sans-serif;
     text-align: initial;
-    color: #b7444e;
 }
 
 @media only screen and (max-width: 1350px) {
@@ -106,7 +110,9 @@ h4.article-title {
         margin-right: 31px;
     }
     blockquote {
-        margin-inline-start: 15px;
-        margin-inline-end: 15px;
+        margin-inline-start: 12px;
+        margin-inline-end: 12px;
+        -webkit-margin-start: 12px;
+        -webkit-margin-end: 12px;
     }
 }
